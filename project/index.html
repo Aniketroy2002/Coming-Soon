@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Coming Soon</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="website icon" type="jpg" href="image\A Big Engine logo AI (2).png">
+</head>
+<body style="background-color:black;">
+<header class="navbar" id="nav-bar-pos">
+    <div class="logo">
+      <img src="image\A Big Engine logo AI (2).png" alt="">
+    </div>
+    <nav class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="#head">About Us</a></li>
+        <li><a href="javascript:void(0);" onclick="openModal('contactModal')">Contact</a></li>
+        <li><a href="javascript:void(0);" class="signup-btn" onclick="openModal('subscribeModal')">Subscribe</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+</header>
+<section class="paralax">
+  <h1>“Revving Up Soon!”</h1>
+  <p>Stay tuned for the best in car products.</p>
+    <video id="scrollVideo" width="94%" height="550" autoplay loop muted>
+      <source src="vid\ABIGENGINE_DROP1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</section>
+<div id="head">
+  <h3>E-Commerse Is Coming Soon</h3>
+</div>
+<section class="about" id="about">
+  <div class="first">
+    <img src="image\image.png" alt="" id="up">
+  </div>
+  <div class="second">
+    <h1>We found our way!</h1>
+    <p>At <strong>A Big Engine</strong>, we bring tire services directly to you, eliminating long waits and travel time. Our mobile service vans offer convenient, professional services like tire balancing, rotation, and alignment, so you don’t have to visit a shop. With transparent, upfront pricing, you pay only for what you need, with no hidden fees.</p>
+    <p><strong>Our Technology and Expertise:</strong>
+      We use advanced tools and equipment to ensure high-quality, long-lasting service for your vehicle and tires. Our expert technicians provide reliable maintenance, enhancing your car’s safety and longevity.</p>
+    <span class="more-text"><strong>How It Works:</strong>
+      Booking is simple—choose your service, schedule a time, and our fully-equipped van comes to your location. Enjoy professional automotive care at your doorstep without leaving home. Experience time savings and hassle-free automotive care with <strong>A Big Engine</strong></span></p>
+      <button class="read-more-btn" onclick="toggleText()">See More <i class="fa-solid fa-angles-right"></i></button>
+  </div>
+</section>
+<section class="brand">
+  <h2>Trusted by Leading Brands</h2>
+  <p>We are proud to collaborate with some of the most reputable brands in the industry. Each partnership<br> reflects our commitment to quality, innovation, and exceptional service.</p>
+  <div class="marquee-container" id="marq">
+    <div class="position-relative marquee-container d-sm-block" id="marq">
+      <div class="marquee d-flex justify-content-around">
+          <img src="/image/image 1133.png" alt="BTC" height="70" width="100" class="comp">
+          <img src="/image/image 1134.png" alt="XRP" height="70" width="100" class="comp">
+          <img src="/image/image 1135.png" alt="ETH" height="70" width="100" class="comp">
+          <img src="/image/image 1136.png" alt="EOS" height="70" width="100" class="comp">
+          <img src="/image/image 1138.png" alt="LTC" height="70" width="100" class="comp">
+      </div>
+      <div class="marquee marquee2 d-flex justify-content-around">
+        <img src="/image/image 1133.png" alt="BTC"   height="70" width="100" class="comp">
+          <img src="/image/image 1134.png" alt="XRP" height="70" width="100" class="comp">
+          <img src="/image/image 1135.png" alt="ETH" height="70" width="100" class="comp">
+          <img src="/image/image 1136.png" alt="EOS" height="70" width="100" class="comp">
+          <img src="/image/image 1138.png" alt="LTC" height="70" width="100" class="comp">
+      </div>
+    </div>
+</section>
+
+<section class="user">
+    <h1>2000+ Happy User</h1>
+    <p>Whether you're tackling complex projects or managing daily tasks, our solution adapts to your unique challenges to help you.</p>
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text">
+              If anyone is looking to create a book cover, this is the place you need to visit. My editor recommended 99design and I am glad she did. My only regret is that I didn't hear about them for my first 3 books. That did a great job!!
+          </p>
+          <div class="review">
+            <div class="user-info">
+                <img src="https://th.bing.com/th/id/OIP.4AiXOaEi6TkRrVLuFAsAMAHaQd?w=208&h=359&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="User Image" class="user-image">
+                <div class="user-details">
+                    <h4>Hitesh Sahni</h4>
+                    <p>Product: Fake Mirror</p>
+                </div>
+            </div>
+            <div class="rating">
+                <span>★</span><span>★</span><span>★</span><span id="nh">★</span><span id="nh">★</span>
+            </div>
+          </div>
+      </div>
+      
+      <div class="testimonial-card">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text">
+              If anyone is looking to create a book cover, this is the place you need to visit. My editor recommended 99design and I am glad she did. My only regret is that I didn't hear about them for my first 3 books. That did a great job!!
+          </p>
+          <div class="review">
+            <div class="user-info">
+                <img src="https://th.bing.com/th/id/OIP.62aVGGRAxsiWF11udEW_LwHaNK?w=720&h=1280&rs=1&pid=ImgDetMain" alt="User Image" class="user-image">
+                <div class="user-details">
+                    <h4>Ronit Sood</h4>
+                    <p>Product: Tyre</p>
+                </div>
+            </div>
+            <div class="rating">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+          </div>
+      </div>
+      
+      <div class="testimonial-card">
+          <div class="quote-icon">“</div>
+          <p class="testimonial-text">
+              If anyone is looking to create a book cover, this is the place you need to visit. My editor recommended 99design and I am glad she did. My only regret is that I didn't hear about them for my first 3 books. That did a great job!!
+          </p>
+          <div class="review">
+            <div class="user-info">
+                <img src="https://th.bing.com/th/id/OIP.NOkrDlEFFMSZdZ3Z2wGZiAHaPM?w=800&h=1642&rs=1&pid=ImgDetMain" alt="User Image" class="user-image">
+                <div class="user-details">
+                    <h4>Jay Pandey</h4>
+                    <p>Product: Battery</p>
+                </div>
+            </div>
+            <div class="rating">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span id="nh">★</span>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section class="team-section" id="teams">
+  <h2>Our Team</h2>
+  <p class="team-description">Whether you're tackling complex projects or managing daily tasks, our solution adapts to your unique challenges to help you.</p>
+  
+  <div class="team-container">
+      <div class="team-card">
+          <img src="image\Ellipse 1.png" alt="Shivili Patel" class="team-image">
+          <h4>Shivili Patel</h4>
+          <p class="role">Product Manager</p>
+          <p class="testimonial">
+              “I've been using this web hosting service for over a year and I'm really impressed with the uptime and support. The website has never gone down and the customer service is always quick to help with any issues I have. Highly recommend!”
+          </p>
+      </div>
+      
+      <div class="team-card">
+          <img src="image\Ellipse 1 (1).png" alt="Rohit Shah" class="team-image">
+          <h4>Rohit Shah</h4>
+          <p class="role">Software Developer</p>
+          <p class="testimonial">
+              “I've been using this web hosting service for a few months now and overall it's been fine. The uptime has been good and I haven't had any major issues. The pricing is also reasonable. Nothing particularly stands out as exceptional, but it gets the job done.”
+          </p>
+      </div>
+      
+      <div class="team-card">
+          <img src="image\Ellipse 1 (2).png" alt="Akshay Singh" class="team-image">
+          <h4>Akshay Singh</h4>
+          <p class="role">Store Manager</p>
+          <p class="testimonial">
+              “I've been using this web hosting service for a few months and it's been nothing but problems. My website has gone down multiple times and the customer service has been unresponsive. I would not recommend this company.”
+          </p>
+      </div>
+  </div>
+</section>
+
+<section class="brand">
+  <h2>Brands We Works With</h2>
+  <p>We are proud to collaborate with some of the most reputable brands in the industry. Each partnership<br> reflects our commitment to quality, innovation, and exceptional service.</p>
+  <div class="marquee-container" id="marq">
+    <div class="position-relative marquee-container d-sm-block" id="marq">
+
+      <div class="marquee d-flex justify-content-around">
+          <img src="/image/image 1133.png" alt="BTC" height="70" width="100" class="comp">
+          <img src="/image/image 1134.png" alt="XRP" height="70" width="100" class="comp">
+          <img src="/image/image 1135.png" alt="ETH" height="70" width="100" class="comp">
+          <img src="/image/image 1136.png" alt="EOS" height="70" width="100" class="comp">
+          <img src="/image/image 1138.png" alt="LTC" height="70" width="100" class="comp">
+      </div>
+
+      <div class="marquee marquee2 d-flex justify-content-around">
+        <img src="/image/image 1133.png" alt="BTC"   height="70" width="100" class="comp">
+          <img src="/image/image 1134.png" alt="XRP" height="70" width="100" class="comp">
+          <img src="/image/image 1135.png" alt="ETH" height="70" width="100" class="comp">
+          <img src="/image/image 1136.png" alt="EOS" height="70" width="100" class="comp">
+          <img src="/image/image 1138.png" alt="LTC" height="70" width="100" class="comp">
+      </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-light pt-5">
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-around">
+      <div class="col-md-12" id="footer-about">
+         <img src="image\A Big Engine logo AI (2).png" alt="">
+        <p>
+          Discover premium car servicing and accessories with us. Our expert technicians ensure top-quality maintenance and repairs, while our extensive range of accessories, from door handles to floor mats, enhances your vehicle’s functionality and style. Enjoy transparent pricing, reliable service, and a commitment to excellence every time you choose us.
+        </p>
+        <div class="custom-padding">
+          <h4>Visit Us: </h4>
+          <a href="#" class="text-light me-2">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#" class="text-light me-2">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="#" class="text-light me-2">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="#" class="text-light">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+        <div class="col-6 col-md-1 ps-4">
+          <h5>About</h5>
+          <ul class="list-unstyled">
+            <li><a href="#head" class="text-light">About Us</a></li>
+            <li><a href="#contact" class="text-light">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 ps-2">
+          <h5>Consumer Policy</h5>
+          <ul class="list-unstyled">
+            <li><a href="terms.html" target="_blank" rel="noopener noreferrer" class="text-light">Terms And Condition</a></li>
+            <li><a href="refund-cancel.html" target="_blank" rel="noopener noreferrer" class="text-light">Refund and Cancellation</a></li>
+            <li><a href="shipping.html" target="_blank" rel="noopener noreferrer" class="text-light">Shipping Policy</a></li>
+            <li><a href="privacy-policy.html" target="_blank" rel="noopener noreferrer" class="text-light">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 ps-4">
+          <h5>Help</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Payment</a></li>
+            <li><a href="shipping.html" target="_blank" rel="noopener noreferrer" class="text-light">Shipping</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-1 ps-2">
+          <h5>Product</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Tyres</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="text-light">Accessories</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="text-light">Pair Parts</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="text-light">Painting</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="text-light">Mechanical service</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="text-light">Electrical service</a></li>
+          </ul>
+        </div>
+
+      <div class="col-12 col-md-3 ps-4" id="mail">
+        <h5>Mail Us</h5>
+        <p> A Big Engine, </p>
+        <p> Krishnanagar Bypass, </p>
+        <p> Krishnanagar, Nadia</p>
+        <p> Email: <a href="mailto:contact@abigengine.com">contact@abigengine.com</a></p>
+        <p> Telephone: <a href="tel:9679975441">+91 9679975441</a></p>
+      </div>
+      <div class="col-12 col-md-3 ps-4" id="address">
+        <h5>Registered office address</h5>
+        <p> A Big Engine, </p>
+        <p> Building No./Flat No.: Daag/Plot No:2857 &amp; </p>
+        <p> Road/Street: Krishnanagar Bypass, </p>
+        <p> Nearby Landmark: Mahindra First Choice Hindustan Auto Care Service Centre, </p>
+        <p> Locality/Sub Locality: Motinagar, P.O. Bhatjangla, </p>
+        <p> City/Town/Village: Krishnanagar</p>
+        <p> District: Nadia</p>
+        <p>State: West Bengal</p>
+        <p>PIN Code: 741103</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-option">
+    
+  </div>
+  <div class="text-center py-1 mt-1">
+    &copy; 2024 A Big Engine. All rights reserved.
+    <p>Accepted Payment: <img src="logo\pay-method.svg" alt=""></p>
+  </div>
+</footer>
+
+
+      <!-- Contact Modal -->
+      <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <span class="close-btn" id="clb" onclick="closeModal('contactModal')">&times;</span>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Phone No:</label>
+                <input type="number" id="email" required>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div class="modal" id="subscribeModal">
+      <div class="modal-contents subscribe-modal">
+          <span class="close-btn" onclick="closeModal('subscribeModal')">&times;</span>
+          <div class="modal-left">
+              <img src="image\image (1).png" alt="Subscribe Image">
+          </div>
+          <div class="modal-right">
+              <h2><span id="design">Subscribe to our </span>Newsletter!</h2>
+              <p>Be the first to get exclusive offers
+                ands the latest news</p>
+              <form>
+                  <label for="subEmail"></label>
+                  <input type="email" id="subEmail" required placeholder="Enter your Email address">
+                  
+                  <button type="submit">Subscribe</button>
+              </form>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
